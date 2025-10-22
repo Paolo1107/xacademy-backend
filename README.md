@@ -153,5 +153,5 @@ GET /api/players/export?gender=female → descarga CSV filtrado.
 
 🧾 Créditos
 
-Desarrollado por Paolo [@tu-usuario]
+Desarrollado por Paolo [Paolo1107]
 Challenge oficial XAcademy DEV 2025
