@@ -1,0 +1,28 @@
+# Enforce LF en texto (universal)
+* text=auto eol=lf
+
+# Asegurar LF explícito en estos tipos
+*.ts   text eol=lf
+*.tsx  text eol=lf
+*.js   text eol=lf
+*.jsx  text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.env.example text eol=lf
+
+# Archivos binarios (no tocar EOL)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+
+# En Windows, estos sí van con CRLF
+*.bat eol=crlf
+*.cmd eol=crlf
+
+# Scripts *nix siempre LF
+*.sh text eol=lf
